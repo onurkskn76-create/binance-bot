@@ -3,8 +3,8 @@ import time
 import requests
 
 # Telegram Bilgilerin (Kendi bilgilerini buraya yaz)
-TELEGRAM_TOKEN = "BURAYA_BOT_TOKENINI_YAZ"
-TELEGRAM_CHAT_ID = "BURAYA_CHAT_ID_YAZ"
+TELEGRAM_TOKEN = "8136411060:AAEq_ESAkhg-f-eKAfKk6jzXO7j2FzJ9Zdw"
+TELEGRAM_CHAT_ID = "7380293899"
 
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
